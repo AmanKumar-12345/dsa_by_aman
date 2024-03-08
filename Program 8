@@ -1,0 +1,16 @@
+//Write a C++ program to accept a integer and check whether number is positive,negative or zero.
+#include<iostream>
+using namespace std;
+int main(){ 
+    int n;
+    cout<<"Enter number: ";
+    cin>>n;
+    if(n>0){
+        cout<<"positive"<<endl;
+    }
+    else{
+        cout<<"negative"<<endl;
+    }
+    return 0;
+    
+}
