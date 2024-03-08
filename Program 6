@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int n1;
+    int n2;
+    cout<<"Entered two integers and check whether they are equal or not: ";
+    cin>>n1>>n2;
+    if(n1==n2){
+        cout<<"The entered two integers are equal: ";
+    }
+    else{
+        cout<<"The entered two integers are not equal: ";
+    }
+}
