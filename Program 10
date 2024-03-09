@@ -1,0 +1,18 @@
+//Write a C++ program to accept two integers and find maximum betweentwo numbers.
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int a , b;
+    cout<<"Enters two integers: ";
+    cin>>a>>b;
+    
+    if(a > b){
+        cout<<" Max is "<< a;
+    }
+    else{
+        cout<<" Max is "<< b;
+    }
+    return 0;
+    
+}
