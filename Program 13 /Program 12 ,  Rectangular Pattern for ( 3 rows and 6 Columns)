@@ -1,0 +1,18 @@
+// Rectangular Pattern for ( 3 rows and 6 Coloumns) 
+
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int n,m;
+    cin>>n;
+    cin>>m;
+    
+    for(int i=1;i<=n;i++){
+        for(int j=1;i<=m;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;  
+}
